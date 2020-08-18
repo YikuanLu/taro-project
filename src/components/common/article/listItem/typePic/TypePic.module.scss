@@ -1,0 +1,27 @@
+.typePic {
+  .title {
+    padding: 0 30px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #000000;
+  }
+  .mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 24px;
+    .itemImg {
+      width: 220px;
+      height: 220px;
+      overflow: hidden;
+      margin: 6px;
+      .img {
+        width: 200%;
+        // height: auto;
+      }
+    }
+  }
+  .statusBox {
+    padding: 30px 30px 0;
+  }
+}

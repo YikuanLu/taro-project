@@ -1,0 +1,18 @@
+.box{
+  .infos{
+    padding: 20px 0;
+    background: #fff;
+    .row1{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 20px;
+      padding: 0 70px;
+    }
+    .row2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

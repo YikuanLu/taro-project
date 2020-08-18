@@ -1,0 +1,48 @@
+.box{
+  padding: 30px 20px 20px;
+  border-top: solid 1px #EDEDED;
+  .table{
+    .thead{
+      background: #F5F7F9;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .text{
+        color: #657180;
+        font-size: 22px;
+        flex: 1;
+        white-space: nowrap;
+        text-align: center;
+      }
+    }
+    .tbody{
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: solid 1px #EDEDED;
+      border-top: none;
+      .logo{
+        width: 10px;
+        height: 100%;
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .img{
+          width: 80%;
+          height: 80%;
+          text-align: center;
+        }
+      }
+      .text{
+        font-size: 24px;
+        color: #000;
+        flex: 1;
+        text-align: center;
+      }
+    }
+  }
+}

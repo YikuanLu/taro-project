@@ -1,0 +1,73 @@
+.content {
+	height: 100Vh;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+  position: relative;
+  background:url('https://www.shangniu.cn/h5/img/bg.png');
+  .form {
+    width: 100%;
+    background-color: transparent!important;
+    border: none!important;
+    transform: translateY(40%)!important;
+    transform-origin: 50% 50%;
+    &::after {
+      border: none!important;
+    }
+    .formItem {
+      position: relative;
+      padding-bottom: 48px;
+      .formInput {
+        background-color: transparent;
+        color: #fff;
+        margin: 0 74px;
+        input {
+          color: #fff;
+          &::-webkit-input-placeholder {
+            color: #b4d6ff;
+            font-size: 30px;
+          }
+        }
+      }
+      .passwordIcon {
+        position: absolute;
+        right: 85px;
+        top: 28px;
+        z-index: 20;
+      }
+      .errorInput {
+        &::after {
+          border-color: red;
+        }
+      }
+    }
+    .btn {
+      margin: 20px 74px;
+    }
+  }
+	.text {
+		font-size: 60px;
+		color: #fff;
+	}
+	.agreement {
+    padding: 20px 74px;
+    display: flex;
+    align-items: center;
+		// height: 30px;
+		.agreementLink {
+			color: #3f8ffd;
+		}
+		.checkBox {
+      display: inline-block;
+      margin-right: 14px;
+      margin-top: -10px;
+			width: 30px;
+			height: 30px;
+		}
+		.checkLabel {
+			display: inline-block;
+			color: #b4d6ff;
+			font-size: 28px;
+			line-height: 30px;
+		}
+	}
+}

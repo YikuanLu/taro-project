@@ -1,0 +1,25 @@
+.checkBoxContent {
+	display: flex;
+	width: 30px;
+  height: 30px;
+  margin-right: 14px;
+  box-sizing: border-box;
+	.unCheck {
+		display: block;
+		width: 30px;
+		height: 30px;
+		background-color: transparent;
+    border: 1px solid #B4D6FF;
+    box-sizing: border-box;
+	}
+	.checked {
+    display: block;
+		width: 30px;
+		height: 30px;
+    background-color: #3f8ffd;
+    box-sizing: border-box;
+		// display: flex;
+		// justify-content: center;
+		// align-items: center;
+	}
+}

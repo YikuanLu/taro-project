@@ -1,0 +1,24 @@
+.box{
+  padding: 20px 30px;
+  border-top: solid 1px #F2F2F2;
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  .name{
+    width:90px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgba(63,143,253,1);
+    border-radius:20px;
+    font-size: 24px;
+    color: #fff;
+    flex-shrink: 0;
+    &.ban{
+      background: #C3CBD6;
+    }
+  }
+}

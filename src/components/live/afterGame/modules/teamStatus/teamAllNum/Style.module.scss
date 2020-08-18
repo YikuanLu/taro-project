@@ -1,0 +1,49 @@
+.box{
+  padding: 0 40px;
+  flex: 1;
+  border-top: solid 1px #F2F2F2;
+  .itemBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .item{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+
+  }
+  .img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 2;
+    filter: brightness(.6);
+  }
+  .text{
+   color: #fff;
+   font-size: 24px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate3d(-50%, -50%, 0);
+   z-index: 3;
+  }
+  .name{
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    font-size: 24px;
+    color: #000;
+    white-space: nowrap;
+  }
+}

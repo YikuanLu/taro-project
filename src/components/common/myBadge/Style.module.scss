@@ -1,0 +1,26 @@
+.iconBtn {
+  display: flex;
+  flex-wrap: nowrap;
+  .icon {
+    position: relative;
+    .badge {
+      position: absolute;
+      display: block;
+      width: 10px;
+      height: 10px;
+      background-color: #EE4343;
+      border-radius: 50%;
+      top: 0;
+      right: 0;
+      margin-right: -6px;
+      margin-top: -6px;
+    }
+  }
+  .btnText {
+    display: block;
+    font-size: 24px;
+    line-height: 38px;
+    color: #fff;
+    margin-left: 10px;
+  }
+}

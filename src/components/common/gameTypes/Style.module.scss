@@ -1,0 +1,39 @@
+.box{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1PX #F2F2F2;
+}
+.scrollview{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #fff;
+  flex: 14;
+  white-space: nowrap;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  .scrollItem{
+    font-size: 24px;
+    color: #9EA7B4;
+    padding: 10px 20px;
+    border-radius:4px;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 24px auto;
+    line-height: 1;
+  }
+  .scrollItem_active{
+    background: #3F8FFD;
+    color: #fff;
+  }
+}
+.selectBox{
+  background: #fff;
+}
+.selectIcon{
+  flex: 1;
+  background: #fff;
+  padding: 0 30px;
+  margin: 23px auto;
+  border-left: solid 1px #E3E8EE;
+}

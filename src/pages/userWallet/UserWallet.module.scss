@@ -1,0 +1,17 @@
+.userWallet {
+  // display: flex;
+  .header {
+    height: 335px;
+    background: linear-gradient(90deg, rgba(63, 143, 253, 1), rgba(62, 173, 254, 1));
+  }
+  .menuBox {
+    width: 690px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: -120px;
+  }
+  .billdetailBox {
+    margin-top: 20px;
+  }
+}

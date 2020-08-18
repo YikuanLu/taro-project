@@ -1,0 +1,28 @@
+.box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  .logo{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .img{
+      width: 60px;
+      height: 100%;
+    }
+  }
+  .name{
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+  }
+}

@@ -1,0 +1,25 @@
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background: #fff;
+  padding: 20px 30px;
+  .item{
+    height:50px;
+    line-height: 50px;
+    background:#F5F7F9;
+    border-radius:8px;
+    color: #657180;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 30px;
+    padding: 0 17px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    &.active{
+      background: #DEF1FF;
+      color: #3F8FFD;
+    }
+  }
+}

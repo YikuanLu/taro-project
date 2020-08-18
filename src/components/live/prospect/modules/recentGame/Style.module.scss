@@ -1,0 +1,39 @@
+.box{
+  width: 334px;
+  .thead{
+    height:60px;
+    background:#5692ED;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 24px;
+  }
+  .row{
+    color: #000;
+    font-size: 24px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px #EDEDED;
+    border-top: none;
+    .logo{
+      width: 34px;
+      height: 100%;
+    }
+    .text{
+      flex: 1;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+    .name{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 50px;
+
+    }
+  }
+}

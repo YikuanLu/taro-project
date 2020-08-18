@@ -1,0 +1,22 @@
+.detailItem {
+  padding: 20px 30px;
+  border-bottom: 1px solid #F2F2F2;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .content {
+    .title {
+      font-size: 24px;
+      color: #333333;
+    }
+    .time {
+      font-size: 20px;
+      color: #9EA7B4;
+    }
+  }
+  .account {
+    font-size: 28px;
+    color: #464C5B;
+  }
+}

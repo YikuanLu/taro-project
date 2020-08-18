@@ -1,0 +1,20 @@
+.box{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background: #fff;
+  height: 80px;
+  border-bottom: solid 1PX #F2F2F2;
+  .item{
+    color: #464C5B;
+    font-size: 24px;
+    padding-bottom: 28px;
+    line-height: 1;
+    border-bottom: solid 4px transparent;
+    transition: all .3s;
+  }
+  .item_active{
+    color: #3F8FFD;
+    border-bottom-color: #3F8FFD;
+  }
+}

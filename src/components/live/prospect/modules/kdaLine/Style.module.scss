@@ -1,0 +1,72 @@
+$blue_color: #3399EE;
+$red_color: #F9444B;
+.box{
+  background: #fff;
+  padding: 30px;
+  .kdaInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 28px;
+    padding-bottom: 10px;
+    .kda{
+      color: $blue_color;
+      &.red{
+        color: $red_color;
+      }
+    }
+    .kdaDetail{
+      color: $blue_color;
+      font-size: 24px;
+      &.red{
+        color: $red_color;
+      }
+    }
+    .kdaText{
+      color: #000;
+      padding: 0 50px;
+    }
+  }
+
+  .row{
+    .title{
+      color: #000;
+      font-size: 24px;
+      text-align: center;
+      padding: 10px 0 0;
+    }
+    .lineBox{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .text{
+        font-size: 24px;
+        flex: 1;
+        text-align: right;
+        &.red{
+          text-align: left;
+        }
+      }
+      .lines{
+        // width: 500px;
+        flex: 5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      .line{
+        height: 10px;
+        background: $blue_color;
+        width: 50%;
+        margin: 0 3px;
+        margin-left: 8px;
+        &.red{
+          background: $red_color;
+          margin: 0 3px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}

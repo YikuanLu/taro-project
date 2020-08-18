@@ -1,0 +1,17 @@
+.container{
+  margin-bottom: 100px;
+  height: 100vh;
+}
+.scrollMatch{
+  height: 1200px;
+}
+.fixed{
+  position: fixed;
+  top: 85px;
+  z-index: 9;
+  width: 100vw;
+  transition: all .3s;
+}
+.placeBlock{
+  height: 160px;
+}

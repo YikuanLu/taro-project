@@ -1,0 +1,31 @@
+.box{
+  .rulePopup{
+    background: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    width: 660px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 11;
+    .iconfont{
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    .text{
+      font-size: 24px;
+      color: #464C5B;
+    }
+  }
+  .mask{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(1,1,1,.6);
+  }
+}

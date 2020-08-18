@@ -1,0 +1,41 @@
+.box{
+  padding: 40px 40px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+    .outCol{
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+    .rate{
+      color: #9EA7B4;
+      font-size: 20px;
+      position: absolute;
+      top: -40px;
+      transform: translateX(-50%);
+    }
+    .col{
+      width: 20px;
+      margin: 0 10px;
+      display: flex;
+      align-items: flex-end;
+    }
+    .bar{
+      width: 20px;
+      position: relative;
+    }
+    .itemName{
+      color: #000;
+      font-size: 24px;
+      white-space: nowrap;
+      position: absolute;
+      bottom: -40px;
+    }
+  }
+}

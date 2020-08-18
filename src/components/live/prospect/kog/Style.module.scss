@@ -1,0 +1,12 @@
+.box{
+  background: #fff;
+  .title{
+    font-size: 24px;
+    color: #9EA7B4;
+    padding: 30px;
+  }
+  .pieCharts{
+    display: flex;
+    justify-content: space-around;
+  }
+}

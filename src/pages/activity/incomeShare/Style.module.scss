@@ -1,0 +1,116 @@
+.box{
+  background: #FF8E1D;
+  padding-bottom: 58px;
+  .topBox{
+    width: 100vw;
+    height: 498px;
+    background: url('https://www.shangniu.cn/h5/img/activity-banner1.jpg') no-repeat top center #ff9420;
+    background-size: 100%;
+    position: relative;
+    .rules{
+      color: #FFDFBD;
+      font-size: 24px;
+      width:102px;
+      height:81px;
+      background:rgba(255,135,16,1);
+      border-radius:41px 0px 0px 41px;
+      padding: 12px;
+      padding-left: 36px;
+      white-space: wrap;
+      box-sizing: border-box;
+      line-height: 30px;
+      position: absolute;
+      right: 0;
+      top: 70px;
+    }
+  }
+  .bgBox{
+    width: 670px;
+    margin: 0 auto 20px;
+    padding: 0 60px;
+    background: #fff;
+    border-radius:14px;
+    border: solid 10px #FFA73B;
+    border-radius:20px;
+    position: relative;
+    box-sizing: border-box;
+    .formItem{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width:550px;
+      height: 80px;
+      background: #F3F5F7;
+      padding: 0 20px;
+      margin: 57px auto 30px;
+      border-radius:10px;
+      box-sizing: border-box;
+      .inputs{
+        font-size: 28px;
+        color: #333;
+        margin: 0 20px;
+        line-height: 30px;
+        box-sizing: border-box;
+        &::placeholder{
+          color: #D7DDE4;
+        }
+      }
+    }
+    .getCode{
+      box-sizing: border-box;
+      border: none;
+      background: none;
+      padding: 0;
+      font-size: 24px;
+      width: 250px;
+      outline: 0;
+      color: #999;
+    }
+    .submit{
+      box-sizing: border-box;
+      border: none;
+      width:550px;
+      height:80px;
+      line-height: 80px;
+      background:linear-gradient(90deg,rgba(253,177,1,1),rgba(255,146,32,1));
+      border-radius:10px;
+      color: #fff;
+      font-size: 32px;
+      margin-bottom: 58px;
+      box-shadow: 0px 6px 0px 0px rgba(247,120,8,1);
+      outline: 0;
+    }
+  }
+  .leftLine, .rightLine{
+    width: 20px;
+    height: 120px;
+    position: absolute;
+    bottom: -80px;
+    z-index: 9;
+  }
+  .leftLine{
+    left: 44px;
+  }
+  .rightLine{
+    right: 44px;
+  }
+  .textBox{
+    padding: 33px 0 51px;
+    .text{
+      color: #464C5B;
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+  .blockTitle{
+    width: 406px;
+    height: 75px;
+    line-height: 60px;
+    background: url('https://www.shangniu.cn/h5/img/block-title.png') no-repeat top center ;
+    background-size: 100%;
+    margin: auto;
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+  }
+}

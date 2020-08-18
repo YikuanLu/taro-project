@@ -1,0 +1,48 @@
+.box{
+  position: relative;
+  top: 10px;
+  .scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    line-height: 1;
+    .num{
+      font-size: 44px;
+      flex: 2;
+      width: 50px;
+    }
+  }
+  .mapInfo{
+    width: 200px;
+    height: 101px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+    margin: 0 30px;
+    .name{
+      color: #fff;
+      font-size: 24px;
+      width: 100%;
+      height: 36px;
+      line-height: 36px;
+      background: rgba(51,153,238,.5);
+      margin: 30px auto;
+      display: block;
+    }
+    .round{
+      color: #9EA7B4;
+      font-size: 22px;
+      padding-top: 10px;
+    }
+  }
+  .time{
+    color: #9EA7B4;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    line-height: 1;
+  }
+}

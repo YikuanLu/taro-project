@@ -1,0 +1,32 @@
+.box{
+  padding: 20px 0 0;
+  .matchNum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    .left{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .text{
+      font-size: 26px;
+      color: #000;
+      padding-left: 15px;
+    }
+  }
+  .matchList{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px 30px;
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+}

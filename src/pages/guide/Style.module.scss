@@ -1,0 +1,40 @@
+.guideIndex{
+  height: 100vh;
+  background: #fff;
+  overflow: hidden;
+  .title{
+    padding: 39px 0 48px 32px;
+    line-height: 28px;
+    .text{
+      font-size: 28px;
+      color: #464C5B;
+    }
+    .textSmall{
+      font-size: 24px;
+      color: #657180;
+    }
+  }
+  .gameList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .gameItem{
+      width: 25%;
+      text-align: center;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .iconFont{
+      display: inline-block;
+    }
+    .gameName{
+      color: #9EA7B4;
+      font-size: 24px;
+    }
+  }
+  .iconClose{
+    position: absolute;
+    right: 40px;
+    top: 0;
+  }
+}

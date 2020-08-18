@@ -1,0 +1,14 @@
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  &.red{
+    flex-direction: row-reverse;
+  }
+  .num{
+    font-size: 22px;
+    color: #FFA847;
+    padding: 0 10px;
+  }
+}

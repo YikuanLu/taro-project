@@ -1,0 +1,57 @@
+.form {
+  &::after {
+    border: none !important;
+  }
+  .formItem {
+    position: relative;
+    padding-bottom: 48px;
+    .formInput {
+      background-color: transparent;
+      color: #464c5b;
+      margin: 0;
+      input {
+        color: #464c5b;
+        &::-webkit-input-placeholder {
+          color: #d7dde4;
+          font-size: 30px;
+        }
+      }
+    }
+    .passwordIcon {
+      position: absolute;
+      right: 20px;
+      top: 28px;
+      z-index: 20;
+    }
+    .errorInput {
+      &::after {
+        border-color: red;
+      }
+    }
+  }
+  .btn {
+    margin: 20px 0;
+  }
+}
+.agreement {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  // height: 30px;
+  .agreementLink {
+    color: #3f8ffd;
+  }
+  .checkBox {
+    display: inline-block;
+    margin-right: 14px;
+    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+  }
+  .checkLabel {
+    display: inline-block;
+    color: #d7dde4;
+    font-size: 28px;
+    line-height: 30px;
+  }
+}

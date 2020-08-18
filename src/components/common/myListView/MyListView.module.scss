@@ -1,0 +1,19 @@
+.content {
+  max-height: 80vh;
+  .loading {
+    text-align: center;
+    font-size: 24px;
+    color: #e6e6e6;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -50px;
+  }
+  .loadingView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 100px 0;
+    color: #9EA7B4;
+  }
+}

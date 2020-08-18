@@ -1,0 +1,45 @@
+.leagueItem {
+  margin-bottom: 10px;
+  .dateBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #464C5B;
+    line-height: 80px;
+    text-align: center;
+    .icon {
+      margin-right: 10px;
+    }
+  }
+  .content {
+    background-color: #fff;
+    margin-bottom: 10px;
+    .body {
+      .leagueBody {
+        width: 82%;
+      }
+      display: flex;
+      .btnBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 18%;
+        padding: 30px 0;
+        font-size: 24px;
+        color: #9EA7B4;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 2px;
+          height: 150px;
+          background-color: #F5F7F9;
+          left: 0;
+          top: 50%;
+          margin-top: -75px;
+        }
+      }
+    }
+  }
+}

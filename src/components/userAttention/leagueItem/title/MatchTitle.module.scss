@@ -1,0 +1,22 @@
+.title {
+  padding: 0 30px;
+  border-bottom: 2px solid #f5f7f9;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .left {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    color: #000000;
+    flex-wrap: nowrap;
+    .name {
+      margin: 0 10px;
+      max-width: 400px;
+      overflow: hidden; //超出的文本隐藏
+      text-overflow: ellipsis; //溢出用省略号显示
+      white-space: nowrap; //溢出不换行
+    }
+  }
+}

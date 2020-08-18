@@ -1,0 +1,28 @@
+.box{
+  position: relative;
+  top: 20px;
+  .scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    line-height: 1;
+    .num{
+      font-size: 44px;
+      flex: 2;
+      width: 50px;
+    }
+    .vs{
+      font-size: 28px;
+      padding: 0 20px;
+      flex: 1;
+    }
+  }
+  .time{
+    color: #9EA7B4;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    line-height: 1;
+  }
+}

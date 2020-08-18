@@ -1,0 +1,84 @@
+@import "@/assets/theme/custom-variables.scss";
+
+// 可选值 weapp / swan / alipay / h5 / rn / tt
+
+/*  #ifdef  h5  */
+html,
+body {
+  background-color: #f5f7f9;
+}
+// * {
+//   box-sizing: border-box;
+// }
+/*  #endif  */
+
+/*  #ifdef  weapp  */
+page {
+  background-color: #f5f7f9;
+}
+/*  #endif  */
+
+.at-button--disabled {
+  background-color: #b4d6ff !important;
+  opacity: 1;
+  &:active {
+    background-color: #b4d6ff !important;
+    opacity: 1;
+  }
+  &:focus {
+    background-color: #b4d6ff !important;
+    opacity: 1;
+  }
+}
+
+// 下拉刷新组件的样式
+.bodyView {
+  .pullDownBlock {
+    font-size: 24px !important;
+    .circle {
+      width: 40px !important;
+      height: 40px !important;
+      border-width: 2px !important;
+    }
+  }
+  .loading,
+  .loaded {
+    font-size: 24px !important;
+  }
+  .noContentTips .emptyBanner {
+    width: 200px;
+    height: auto;
+  }
+  .errorPage {
+    font-size: 20px !important;
+    .button {
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+  }
+}
+
+.taro-video {
+  height: 100% !important;
+}
+
+.ellipsis {
+  overflow: hidden; //超出的文本隐藏
+  text-overflow: ellipsis; //溢出用省略号显示
+  white-space: nowrap;
+}
+
+.listContentBox {
+  // max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // justify-content: start;
+}
+
+.swiper-container{
+  height: auto;
+}
+
+.weui-picker__action {
+  color: #3f8ffd!important;
+}

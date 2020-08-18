@@ -1,0 +1,37 @@
+.taro__tabbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 98px;
+  .taro__tabbar-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .taro__tabbar-icon{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+  }
+  .taro__tabbar-title{
+    font-size: 18px;
+    color: #657180;
+    display: block;
+    padding-top: 8px;
+    text-align: center;
+  }
+  .taro__tabbar-item-lg{
+    .taro__tabbar-icon{
+      position: relative;
+      top: -8px;
+      width: 75px;
+      height: 75px;
+    }
+    .taro__tabbar-title{
+      position: relative;
+      top: -16px;
+    }
+  }
+}

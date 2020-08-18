@@ -1,0 +1,19 @@
+.listItem {
+  background-color: #fff;
+  padding: 30px;
+  border-bottom: 1px solid #F2F2F2;
+  .title {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  .desc {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #9EA7B4;
+  }
+}
+
+
+

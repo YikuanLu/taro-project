@@ -1,0 +1,10 @@
+{
+    "symbol_url": "//at.alicdn.com/t/font_1483437_78batotvsy5.js",
+    "save_dir": "./src/iconfont",
+    "use_typescript": false,
+    "platforms": ["weapp","h5"],
+    "use_rpx": true,
+    "trim_icon_prefix": "icon",
+    "default_icon_size": 18,
+    "component_name": "IconFont"
+}

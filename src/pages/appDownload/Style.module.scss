@@ -1,0 +1,48 @@
+.box{
+  width: 100vw;
+  height: 100vh;
+  background: url('https://www.shangniu.cn/h5/img/app-download-bg.png') no-repeat #3383FD;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+  .logo{
+    width: 244px;
+    height: 244px;
+    display: block;
+    margin: 200px auto 0;
+  }
+  .logoText{
+    width: 303px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+  }
+  .text{
+    font-size: 28px;
+    color: #fff;
+    line-height: 49px;
+    text-align: center;
+  }
+  .btns{
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+  }
+  .btn{
+    width:400px;
+    height:90px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid rgba(255,255,255,1);
+    border-radius: 45px;
+    margin: 40px auto 0;
+    .text{
+      font-size: 32px;
+      font-weight: 500;
+      padding-left: 20px;
+    }
+  }
+}

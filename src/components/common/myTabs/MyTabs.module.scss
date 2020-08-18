@@ -1,0 +1,43 @@
+.scrollBox {
+  flex-shrink: 0;
+  background-color: #fff;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex: 14;
+  white-space: nowrap;
+  justify-content: flex-start;
+  overflow-x: scroll;
+}
+
+.myTabs {
+  flex-shrink: 0;
+  background-color: #fff;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.tabItem {
+  text-align: center;
+  padding: 0 20px;
+  font-size: 28px;
+  color: #464c5b;
+  line-height: 100px;
+}
+
+.active {
+  position: relative;
+  color: #3f8ffd;
+  &::before {
+    content: " ";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: #3f8ffd;
+    left: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,59 @@
+.taro-navbar{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 9;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  white-space: nowrap;
+  background:linear-gradient(90deg,rgba(63,143,253,1),rgba(62,173,254,1));
+  box-sizing: border-box;
+  .taro-navbar-title{
+    color: #fff;
+    font-size: 34px;
+    flex: 5;
+    text-align: center;
+  }
+  .taro-navbar-box{
+    display: flex;
+    margin-left: 30px;
+  }
+  .left-part {
+    flex: 2;
+    align-items: center;
+    .taro-navbar-box{
+      margin-left: 0;
+      justify-content: flex-start;
+    }
+    .left-icon{
+      color: #333;
+      font-size: 30px;
+    }
+  }
+  .right-part{
+    flex: 2;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    .right-icon{
+      color: #fff;
+      font-size: 24px;
+    }
+  }
+  .avatar{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+  }
+}
+.taro-navbar-placer{
+  height: 85px;
+}

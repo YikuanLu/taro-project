@@ -1,0 +1,20 @@
+.box{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 3;
+  &.left{
+    justify-content: flex-start;
+  }
+  &.ban{
+    .img{
+      filter: grayscale(1);
+    }
+  }
+  .img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+}
